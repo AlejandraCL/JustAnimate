@@ -1,0 +1,134 @@
+body {
+    font-family: Montserrat;
+    font-size: 20pt;
+    overflow: hidden; 
+    background-color: hsl(313, 100%, 93%);
+ }
+ 
+ .container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center; 
+    align-items: center;
+ }
+ 
+ .ball {
+   text-decoration:none;
+   font-weight:600;
+   font-size:20px;
+   color:#000000;
+   padding-top:20px;
+   padding-bottom:20px;
+   padding-left:40px;
+   padding-right:40px;
+   background-color:#ff39ac;
+ }
+
+ .ball2 {
+   text-decoration:none;
+   font-weight:600;
+   font-size:20px;
+   color:#ffffff;
+   padding-top:20px;
+   padding-bottom:20px;
+   padding-left:40px;
+   padding-right:40px;
+   background-color:#81006c;
+ }
+ 
+ .ball3 {
+  text-decoration:none;
+  font-weight:600;
+  font-size:20px;
+  color:#000000;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#f89f9f;
+}
+
+.ball4 {
+  text-decoration:none;
+  font-weight:600;
+  font-size:20px;
+  color:#ffffff;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#ff00aa;
+}
+
+.ball5 {
+  text-decoration:none;
+  font-weight:600;
+  font-size:20px;
+  color:#000000;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#ff00dd;
+}
+
+.ball6 {
+  text-decoration:none;
+  font-weight:600;
+  font-size:20px;
+  color:#ffffff;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#772dff;
+}
+
+.ball7 {
+  text-decoration:none;
+  font-weight:600;
+  font-size:20px;
+  color:#000000;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#70fdf6;
+}
+
+.ball8 {
+  text-decoration:none;
+  font-weight:600;
+  font-size:20px;
+  color:#ffffff;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#f9fc57;
+}
+
+.ball9 {
+  text-decoration:none;
+  font-weight:600;
+  font-size:20px;
+  color:#000000;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#fc3200;
+}
+
+.ball10 {
+  text-decoration:none;
+  font-weight:600;
+  font-size:20px;
+  color:#ffffff;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:40px;
+  padding-right:40px;
+  background-color:#5ef872;
+}

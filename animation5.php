@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+    <header>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <script src="./index.php" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMACIÓN 5</title>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.5.0/just-animate-all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.5.0/just-animate-tools.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="animaciones.js" defer></script>
+</head>
+</header>
+ <!--Navbar-->
+ <nav class="navbar navbar-expand-lg navbar-dark danger-color">
+
+<!-- Navbar brand -->
+<a class="navbar-brand" href="./index.php">JUST ANIMATE</a>
+
+<!-- Collapse button -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+  aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- Collapsible content -->
+<div class="collapse navbar-collapse" id="basicExampleNav">
+
+    
+
+  <!-- Links -->
+  <ul class="navbar-nav mr-auto">
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation1.php">Animación 1</a>
+      <span class="sr-only">(current)</span>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation2.php">Animación 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation3.php">Animación 3</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation4.php">Animación 4</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation5.php">Animación 5</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation6.php">Animación 6</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation7.php">Animación 7</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation8.php">Animación 8</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation9.php">Animación 9</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./animation10.php">Animación 10</a>
+    </li>
+  </ul>
+  
+  
+</div>
+<!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+</body>
+<script>
+function function1(){
+   t5.play();
+   just.tools.player(t5);
+ }
+ </script>
+<body>
+    <div class="container">
+
+        <button id="input1" type="button" class="ball5" style="clear:left" onClick="function1();">CLICK ME</button>
+     </div>
+
+     <link rel="stylesheet" href="src/footer.html">
+</body>
+</html>
